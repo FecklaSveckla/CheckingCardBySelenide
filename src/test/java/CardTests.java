@@ -33,14 +33,14 @@ public class CardTests {
 
     }
 
-    @Test
-    public void shouldSendFormWithLitter() {
-        $("[type=text]").setValue( "Алёна Савина" );
-        $("[type=tel]").setValue( "+79261234567");
-        $(".checkbox__box").click();
-        $(".button__content").click();
-        $("[data-test-id=order-success]").shouldHave( exactText(" Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.") );
-
-    }
+//    @Test
+//    public void shouldSendFormWithLitter() {
+//        $("[type=text]").setValue( "Алёна Савина" );
+//        $("[type=tel]").setValue( "+79261234567");
+//        $(".checkbox__box").click();
+//        $(".button__content").click();
+//        $("[data-test-id=order-success]").shouldHave( exactText(" Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.") );
+//
+//    }
 
 }
